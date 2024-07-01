@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <tittle>Welcome</tittle>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <header><state>
+            <div class="name">
+                <img src="../images/logo.png" alt>
+            </div>
+        </state>
+        <div class="mainheader">
+            <nav>
+                <ul>
+                    <n><a href="">HOME</a></n>
+                    <n><a href="order.html">ORDER</a></n>
+                    <n id="trigger-menu"><a href="">MENU</a></n>
+                    <n id="trigger-specials"><a href="">SPECIALS</a></n>
+                    <n id="trigger-events"><a href="">EVENTS</a></n>
+                    <n id="trigger-catering"><a href="">CATERING</a></n>
+                    <n><a href="aboutus.html">ABOUT US</a></n>
+                    <n><a href="contact.html">CONTACT US</a></n>  
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="list-container">
+                <ul>
+                    <a href="cakes.html">CAKES</a></br>
+                    <a href="pastries.html">PASTRIES</a></br>
+                    <a href="milk.html">MILK SHAKES</a></br>
+                    <a href="cookies.html">COOKIES</a></br>
+                </ul>
+            </div>
+            <script>
+                const triggermenu = document.getElementById('trigger-menu');
+                const listContainer = document.getElementById('list-container');
+                    
+                triggermenu.addEventListener('mouseenter', function() {
+                listContainer.style.display = 'block';
+                });
+                    
+                triggermenu.addEventListener('mouseleave', function() {
+                listContainer.style.display = 'struck';
+                });
+
+                listContainer.addEventListener('mouseleave', function() {
+                listContainer.style.display = 'none';
+                });
+            </script>
+                                     
+        <div id="list-container2">
+            <ul>
+                <a href="">LAVA CUP CAKES</a></br>
+                <a href="">BANANA MUFFINS</a></br>
+                <a href="">BROWNIES</a></br>
+                <a href="">RED VELVET CAKE</a></br>
+            </ul>   
+        </div>
+            <script>
+                const triggerspecials = document.getElementById('trigger-specials');
+                const listContainer2 = document.getElementById('list-container2');
+             
+                triggerspecials.addEventListener('mouseenter', function() {
+                listContainer2.style.display = 'block';
+                });
+               
+                triggerspecials.addEventListener('mouseleave', function() {
+                listContainer2.style.display = 'struck';
+                });
+
+                listContainer2.addEventListener('mouseleave', function() {
+                listContainer2.style.display = 'none';
+                });
+            </script>
+
+        <div id="list-container3">
+            <ul>
+                <a href="">BIRTHDAY PARTIES</a></br>
+                <a href="">ANNIVERSARY</a></br>
+                <a href="">MARRIAGES</a></br>
+            </ul>               
+        </div>
+            <script>
+                const triggerevents = document.getElementById('trigger-events');
+                const listContainer3 = document.getElementById('list-container3');
+                
+                triggerevents.addEventListener('mouseenter', function() {
+                listContainer3.style.display = 'block';
+                });
+                
+                triggerevents.addEventListener('mouseleave', function() {
+                listContainer3.style.display = 'struck';
+                });
+
+                listContainer3.addEventListener('mouseleave', function() {
+                listContainer3.style.display = 'none';
+                });
+            </script>
+        </main>
+    
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/banner1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/banner2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/banner3.jpg" class="d-block w-100" alt="...">
+              </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="cupcakes.html">
+                    <h3>CHOCOLATE CUP CAKE<br>RED VELVET CUPCAKE<br>LAVA CUP CAKES</h3></a>
+                    <a href="icecreams.html">
+                    <h4>STRWABERRY ICECREAM<br>BUTTER SKOTCH<br>CHOCOLATE ICECREAM</h4><a href="cakes.html">
+                </div>   
+                <div class="col-md-4">
+                    <a href="cakes.html">
+                    <h3>CHOCOLATE CAKES<br>RED VELVET CAKES<br>PINE APPLE CAKES</h5></a>
+                    <a href="muffins.html">
+                    <h4>BANANA MUFFINS<br>BROWNIES<br>DOUGH NUTS</h6></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>WELCOME</h2>
+                    <h4>Shine's Bakery</h4>
+                    <p>Welcome to Shine's Bakery, where passion meets pastry perfection. Nestled Pedana since 2023, we take pride in creating delightful baked goods that bring joy to every bite.</p>
+                    <p>At Shine's Bakery, baking isn’t just a craft; it’s our heritage. Founded by Sivaiah & Jyothi with a dream to blend traditional recipes with innovative techniques, we’ve been serving our community with love and warmth for 8 months.</p>
+                    <p>Quality ingredients, artisanal techniques, and a dash of creativity define every item we offer. From our flaky croissants to our decadent cakes, each product is crafted with care, ensuring a memorable experience for every customer.</p>
+                </div>
+                <div class="col-md-6">    
+                    <img src="../images/building.png">
+                </div>
+            </div>           
+        </div>        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>CONTACT US</h2>
+                    <h5>Shine's Bakery</h5>
+                    <p> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Address : NEXUS Mall,KPHB,Hyderabad<br> Hyderabad – 500 055</p>            
+                           <p><i class="fa fa-mobile" aria-hidden="true"></i> Cell : 09963825114 <br>
+                           <i class="fa fa-phone-square" aria-hidden="true"></i> Phone : 040-23195977<br>
+                               <i class="fa fa-envelope" aria-hidden="true"></i> Email: shinesbakery@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <p><img src="../images/map.img"></p>
+                </div>  
+            </div>                                                                                                                         </div>
+        </div>
+    <footer>
+        <P>2024@Shine's Bakery.All Rights Reserved</P>  
+    </footer>    
+                                                 
+    </body>
+</html>
