@@ -1,5 +1,5 @@
 .col-md-5 h3 {
-    background-image: url(../images/cup.jpg);
+    background-image: url(images/cakes.jpg);
     background-size: cover;
     background-position: center;
     color:#ffff;
@@ -10,7 +10,7 @@
     font-size: 20px;
 }
 .col-md-5 h4 {
-    background-image: url(../images/icecream.jpg);
+    background-image: url(images/milk.png);
     background-size: cover;
     background-position: center;
     color:#ffff;
@@ -23,7 +23,7 @@
     float:left;
 }
 .col-md-4 h3 {
-    background-image: url(../images/cakes.jpg);
+    background-image: url(images/pastries.png);
     background-size: cover;
     background-position: center;
     color:#ffff;
@@ -35,7 +35,7 @@
     font-size: 20px;
 }
 .col-md-4 h4{
-    background-image: url(../images/muffins.jpg);
+    background-image: url(images/cookies.png);
     background-size: cover;
     background-position: center;
     color:#ffff;
