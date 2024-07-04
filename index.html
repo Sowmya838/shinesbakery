@@ -10,25 +10,26 @@
         <link href="bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <header><state>
-            <div class="name">
-                <img src="images/logo.png" alt>
-            </div>
-        </state>
-        <div class="mainheader">
+        <header>
+                <state>
+                    <div class="name">
+                        <img src="images/logo.png" alt>
+                    </div>
+                </state>
+        <div id="container">
+            <div class="mainheader">
             <nav>
                 <ul>
-                    <n><a href="">HOME</a></n>
-                    <n><a href="order.html">ORDER</a></n>
+                    <n><a href="index.html">HOME</a></n>
                     <n id="trigger-menu"><a href="">MENU</a></n>
                     <n id="trigger-specials"><a href="">SPECIALS</a></n>
                     <n id="trigger-events"><a href="">EVENTS</a></n>
-                    <n id="trigger-catering"><a href="">CATERING</a></n>
+                    <n><a href="catering.html">CATERING</a></n>
                     <n><a href="aboutus.html">ABOUT US</a></n>
                     <n><a href="contact.html">CONTACT US</a></n>  
                 </ul>
             </nav>
-        </header>
+            </header>
         <main>
             <div id="list-container">
                 <ul>
@@ -55,14 +56,14 @@
                 });
             </script>
                                      
-        <div id="list-container2">
-            <ul>
-                <a href="">BIRTHDAY & WEDDING CAKES</a></br>
-                <a href="">MACARON PASTRY</a></br>
-                <a href="">OREO MILKSHAKE</a></br>
-                <a href="">SNICKERDOODLES COOKIES</a></br>
-            </ul>   
-        </div>
+            <div id="list-container2">
+                <ul>
+                    <a href="">BIRTHDAY & WEDDING CAKES</a></br>
+                    <a href="">MACARON PASTRY</a></br>
+                    <a href="">OREO MILKSHAKE</a></br>
+                    <a href="">SNICKERDOODLES COOKIES</a></br>
+                </ul>   
+            </div>
             <script>
                 const triggerspecials = document.getElementById('trigger-specials');
                 const listContainer2 = document.getElementById('list-container2');
@@ -80,14 +81,14 @@
                 });
             </script>
 
-        <div id="list-container3">
-            <ul>
-                <a href="">BIRTHDAY PARTIES</a></br>
-                <a href="">ANNIVERSARY</a></br>
-                <a href="">MARRIAGES</a></br>
-                <a href="">ANY OCCASION</a>
-            </ul>               
-        </div>
+            <div id="list-container3">
+                <ul>
+                    <a href="">BIRTHDAY PARTIES</a></br>
+                    <a href="">ANNIVERSARY</a></br>
+                    <a href="">MARRIAGES</a></br>
+                    <a href="">ANY OCCASION</a>
+                </ul>               
+            </div>
             <script>
                 const triggerevents = document.getElementById('trigger-events');
                 const listContainer3 = document.getElementById('list-container3');
@@ -104,8 +105,10 @@
                 listContainer3.style.display = 'none';
                 });
             </script>
-        </main>
-    
+        </div>
+    </div>
+    </main>
+
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -114,13 +117,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/banner1.png" class="d-block w-100" alt="...">
+                <img src="images/banner1.png" class="d-block w-100" alt="image 1">
               </div>
               <div class="carousel-item">
-                <img src="images/banner2.png" class="d-block w-100" alt="...">
+                <img src="images/banner2.png" class="d-block w-100" alt="image 2">
               </div>
               <div class="carousel-item">
-                <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                <img src="images/banner3.jpg" class="d-block w-100" alt="image 3">
               </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>

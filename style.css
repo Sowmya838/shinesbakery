@@ -4,6 +4,7 @@ html{
     text-decoration: none;
     color: inherit;
 }
+
 *{
     margin:0;
     padding:0;
@@ -17,7 +18,8 @@ body img{
 header nav{
     background-color:red; 
     color: #fff; 
-    padding: 10px 0; 
+    padding:5px 0px 0px 6px; 
+    margin: 0px;
     text-align: justify; 
     font-weight: bolder;
 }
@@ -25,7 +27,7 @@ header nav{
 nav ul a{
     list-style-type: none;
     display: inline; 
-    margin: 0 50px;
+    margin: 10px 50px;
     color: #fff;
     text-decoration: none;
     background-color: none; 
@@ -70,13 +72,14 @@ ul::after{
 footer{
 background-color: red;
 text-align: center;
-margin:10px;
-padding-top:10px;
-padding-bottom: 10px;
-font-weight: bolder;
-font-size:30px;
+margin:0px;
+padding:0px;
+font-size:20px;
 }
 
-h1{
+h7{
     color:red;
+    font-size: 30px;
+    font-weight:bold;
+    
 }

@@ -86,3 +86,11 @@
     height:200px;
     width:150px;
 }
+
+.col-md-9 p,h1{
+    background-size: cover;
+    background-position: center;
+    color:black;
+    margin-top:10px;
+    display: flex;
+}
